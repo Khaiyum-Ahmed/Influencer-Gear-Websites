@@ -1,7 +1,22 @@
 /* medium device responsive */
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    
+    /* nav section style */
+
+    .hide{
+  display: block;
+}
+.menu{
+    display: none;
+}
+.banner-section{
+    grid-template-columns: reverse;
+    grid-template-columns: 1fr;
+}
+
+
+
+
 
 
 }
@@ -10,9 +25,20 @@
 
 /* Mobile-Phone device responsive */
 
-@media screen and (max-width:767pxpx) {
-    
+@media screen and (max-width:767px) {
+    /* nav section style */
 
-    
-    
+    .hide{
+  display: block;
+}
+.menu{
+    display: none;
+}
+
+  
+
+
+
+
+
 }
