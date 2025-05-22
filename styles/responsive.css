@@ -9,12 +9,20 @@
 .menu{
     display: none;
 }
+/* banner section style */
+
 .banner-section{
-    grid-template-columns: reverse;
-    grid-template-columns: 1fr;
+ flex-direction: column-reverse;
+ padding: 0px 30px;
 }
-
-
+.banner-content{
+  text-align: center;
+  margin-top: 50px;
+}
+/* sponsors section style */
+.sponsors-items{
+    grid-template-columns: repeat(4, 1fr);
+}
 
 
 
@@ -34,8 +42,20 @@
 .menu{
     display: none;
 }
+/* banner section style */
 
-  
+.banner-section{
+ flex-direction: column-reverse;
+ padding: 0px 30px;
+}
+.banner-content{
+  text-align: center;
+  margin-top: 50px;
+}
+ /* sponsors section style */
+.sponsors-items{
+    grid-template-columns: repeat(4, 1fr);
+} 
 
 
 
