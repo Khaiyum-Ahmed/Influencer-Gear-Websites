@@ -274,9 +274,10 @@ nav{
   max-width: 1110px;
   margin: 0px auto;
   padding: 36px 62px;
-  border-top:1px solid rgba(192, 204, 218, .5);
-  border-bottom:1px solid rgba(192, 204, 218, .5);
-  /* background-image:radial-gradient(rgba(192, 204, 218, .1), rgba(192, 204, 218, .6),rgba(192, 204, 218, .1)); */
+  border-top:1px solid;
+  border-bottom:1px solid;
+  border-image:linear-gradient(90deg,rgba(192, 204, 218, .1), rgba(192, 204, 218, .6),rgba(192, 204, 218, .1));
+  border-image-slice: 1;
   margin-bottom: 100px;
 
 }
