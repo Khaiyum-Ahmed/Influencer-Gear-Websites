@@ -235,8 +235,8 @@ nav{
   font-weight:600;
   font-family: "Poppins", sans-serif;
 }
-.banner-content>a{
-  background-color: #E02C6D;
+.primary-btn{
+ background-color: #E02C6D;
   border-radius: 41px;
   padding: 10px 24px;
   text-decoration: none;
@@ -244,6 +244,15 @@ nav{
   margin-top: 16px;
   display: inline-block;
 }
+/* .banner-content>a{
+  background-color: #E02C6D;
+  border-radius: 41px;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 16px;
+  display: inline-block;
+} */
 .banner-content>a>span{
   font-size: 1rem;
   padding-left: 8px;
@@ -372,3 +381,83 @@ nav{
 }
 
 /* features section style */
+.features-container{
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+  margin-bottom: 100px;
+}
+.features-img{
+  max-width: 404px;
+}
+.features-img>img{
+  width: 100%;
+}
+.features-content>h2{
+  color: #0A0826;
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 16px;
+}
+.features-content>p{
+  max-width: 500px;
+  color: #6C6C6C;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 16px;
+}
+
+#join{
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 24px;
+}
+.features-content>a>span>i{
+  margin-left: 8px;
+}
+
+/* footer section style */
+
+.footerr-container{
+  text-align: center;
+  padding: 50px 0px;
+}
+.footerr-container>h4{
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-bottom: 3px;
+}
+.footerr-container>p{
+  font-size: .95rem;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  line-height: 24px;
+  color: #D9DBE1;
+  margin-bottom: 3px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 17px;
+}
+.icon{
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 50%;
+  position: relative;
+}
+.icon>a>i{
+  color: #fff;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 21%;
+  left: 24%;
+}

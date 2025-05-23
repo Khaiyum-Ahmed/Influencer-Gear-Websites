@@ -33,7 +33,15 @@
   align-content: center;
   justify-items: center;
 }
-
+.features-container{
+  flex-direction: column-reverse;
+  grid-template-columns: 1fr;
+}
+.features-content{
+  text-align: center;
+  padding: 0px 5px;
+}
+/* footer section style */
 
 
 
@@ -81,9 +89,15 @@
   align-content: center;
   justify-items: center;
 }
-
-
-
+.features-container{
+  flex-direction: column-reverse;
+  grid-template-columns: 1fr;
+}
+.features-content{
+  text-align: center;
+  padding: 0px 5px;
+}
+/* footer section style */
 
 
 
