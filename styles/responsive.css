@@ -23,11 +23,26 @@
 .sponsors-items{
     grid-template-columns: repeat(4, 1fr);
 }
+/* Popular collection section style */
+
+.collection-box-container{
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+
 
 
 
 
 }
+
+
+
 
 
 
@@ -56,6 +71,20 @@
 .sponsors-items{
     grid-template-columns: repeat(4, 1fr);
 } 
+/* Popular collection section style */
+
+.collection-box-container{
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+
+
+
 
 
 
